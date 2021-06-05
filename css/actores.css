@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#actores h2{
+	text-align: center;
+	margin-top: 30px;
+	font-size: 30px;
+}
+#actores{
+	position: relative;
+	background: #333333;
+	color: #ffffff;
+	text-align: center;
+	padding: 20px;
+}
+#actores .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#actores .contenedor .reparto{
+	margin: 20px;
+}
+.reparto img{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border: 5px solid #ffffff;
+}

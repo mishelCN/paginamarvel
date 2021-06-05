@@ -1,0 +1,39 @@
+#peliculas h2{
+	text-align: center;
+	font-size: 30px;
+}
+#peliculas .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#peliculas .contenedor .card{
+	width: 240px;
+	height: 500px;
+	margin-top: 30px;
+	margin-left: 50px;
+	border-radius: 8px;
+	background: #000000;
+	transition: all 0.25s;
+}
+#peliculas .contenedor .card:hover {
+	transform: translateY(-15px);
+	box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+#peliculas .contenedor .card .imagen{
+	margin-top: 2%;
+	margin-left: 2%;
+	width: 232px;
+	height: 416px;
+}
+#peliculas .contenedor .card .text{
+	font-size: 16px;
+	margin-top: 10px;
+	text-align: center;
+	color: #ffffff;
+
+}
+#peliculas .contenedor .card .text a{
+	text-decoration: none;
+	color: #dd0000;
+}
